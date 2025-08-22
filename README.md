@@ -1,5 +1,7 @@
 # Sprint 13 - Project: Application of Linear Algebra in Machine Learning - Sure Tomorrow
 
+## Project Description
+
 The project applies the knowledge acquired in a practical context to linear algebra in the world of machine learning.
 
 ---
@@ -10,42 +12,15 @@ The insurance company **Sure Tomorrow** seeks to apply machine learning techniqu
 
 ---
 
-## Project Tasks
-
-1. **Similar customers**  
-   Find customers similar to a given one to improve marketing strategies.
-
-2. **Benefit prediction**  
-   Determine whether a new customer is likely to receive insurance benefits. Compare the performance of a trained model with a dummy model.
-
-3. **Benefit regression**  
-   Predict the amount of benefits a customer could receive using linear regression.
-
-4. **Personal data protection**  
-   Develop a data masking algorithm that protects personal information without affecting model quality.
-
----
-
 ## Dataset
 
-The data is contained in three CSV files:
-
-- `insurance_us.csv`
-
-File content:
-
-- 'Gender'
-- 'Age'
-- 'Salary'
-- 'Family members'
-- 'Insurance benefits'
-
----
-
-## Data Description
-
-- **Features**: gender, age, salary, number of family members.
-- **Objective**: number of insurance benefits received in the last five years.
+| Column | Description |
+|-----------|-------------|
+| `Gender` | Gender |
+| `Age` | Age |
+| `Salary` | Salary |
+| `Family members` | Number of family members |
+| `Insurance benefits` | Number of insurance benefits received in the last five years |
 
 ---
 
@@ -58,13 +33,22 @@ File content:
 
 ---
 
+## Project Tasks
+
+1. Find customers similar to a given one to improve marketing strategies.
+2. Determine whether a new customer is likely to receive insurance benefits. Compare the performance of a trained model with a dummy model.
+3. Predict the amount of benefits a customer could receive using linear regression.
+4. Develop a data masking algorithm that protects personal information without affecting model quality.
+
+---
+
 ## Checklist
 
-- Follow all steps in the instructions.
+- Follow All steps in the instructions.
 - Maintain the project structure.
 - Code is organized and documented.
 - Answer the questions posed.
-- Include final conclusions.
+- Include Final conclusions.
 
 ---
 
@@ -76,3 +60,5 @@ File content:
 - Seaborn
 - Math
 - Sklearn
+
+---
